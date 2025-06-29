@@ -18,7 +18,7 @@ fn main() {
 	mut fp := flag.new_flag_parser(os.args)
 
 	fp.application('vdiff')
-	fp.version('0.0.0')
+	fp.version('1.0.0')
 	fp.description('File differ')
 	fp.skip_executable()
 
